@@ -11,10 +11,21 @@ body {
   background-size: cover;
 }
 html, body {
-  font-family: "Montserrat";
+  font-family: "Rajdhani";
+  font-size: 40px;
+  color: darkslategrey;
+  line-height: 60px;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+body {
+  height: 50vh;
+}
+p {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
