@@ -6,17 +6,25 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+
 body {
   background: url("assets/freedom.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 html, body {
   font-family: "Rajdhani";
-  color: darkslategrey;
+  color: dimgrey;
   line-height: 60px;
   max-width: calc(100vw - 30px);
 }
 
+/* If the screen size is 601px or more, set the font-size of <div> to 30px */
+@media only screen and (min-width: 601px) {
+  .quote {
+    font-size: 30px;
+    text-align: center;
+    padding: 1.25rem;
+}
 .quote1 {
   text-align: center;
   margin-left: 40px;
@@ -27,9 +35,21 @@ html, body {
 
 .quote2 {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   margin-left: 550px;
   margin-right: 550px;
   margin-top: 20px;
   position: fixed;
+  }
+  .footer {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -300px;
+  position: fixed;
+  color: dimgrey;  
+  }
+  
+  a:hover {
+    color:lightseagreen;  
   }
